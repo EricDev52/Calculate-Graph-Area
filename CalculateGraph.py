@@ -11,7 +11,7 @@ canvas.create_rectangle(50, 50, 350, 350, fill='#cccccc')
 
 def f(x):   # for calculate point in function  and replace so that you can write x^2 instead of x**2
     if x == 0: return 0 # To avoid division by zero
-    else: return eval((fInput.get().replace(",",".")).replace("^","**"))#x*x#-1/8*x*x*x*x+x*x+(9/8)  #-0,555*x^3+4,444*x^2-2,777*x-7,777
+    else: return eval((fInput.get().replace(",",".")).replace("^","**"))
 
 canvas.create_text((25, 15), text="Enter a: ")   #Input windows
 canvas.create_text((25, 35), text="Enter b: ")
